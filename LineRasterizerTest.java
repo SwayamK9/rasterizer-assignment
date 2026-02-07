@@ -34,7 +34,7 @@ public class LineRasterizerTest extends PApplet {
         endpoint2 = new Point(40, 35);
 
         // Create rasterizer instance
-        rasterizer = new BresenhamRasterizer();
+        rasterizer = new WuRasterizer();
     }
 
     public void draw() {
